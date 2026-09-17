@@ -1,0 +1,13 @@
+# Godot import cache / editor artifacts — never commit.
+.godot/
+*.translation
+*.godot.imported
+
+# Export builds
+builds/
+exports/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*~

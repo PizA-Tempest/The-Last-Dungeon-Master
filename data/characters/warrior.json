@@ -1,0 +1,7 @@
+{
+  "id": "warrior",
+  "name": "Warrior",
+  "description": "Powerful melee fighter with high health and defense.",
+  "stats": { "strength": 5, "dexterity": 2, "intelligence": 1, "constitution": 5, "charisma": 2 },
+  "hp": 120
+}
