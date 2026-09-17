@@ -8,6 +8,16 @@ Explore dangerous dungeons, fight monsters, discover treasures, interact with my
 
 ---
 
+## ▶ Running the game
+
+Requires **Godot 4.7.x** (developed and verified with 4.7.2-stable).
+
+* Play: double-click `run_game.bat` (Windows, uses the winget-installed Godot), or open the folder in Godot and press F5, or run `godot --path .` from the repo root.
+* Headless check: `godot --headless --path . --quit` (menu) and `godot --headless --path . res://scenes/main/main.tscn --quit` (game scene).
+* Controls: WASD/arrows to move, Space/Enter or left-click to attack, T to spend a Fate Token reroll on a miss. Slay all enemies to win.
+
+---
+
 ## 🧙 Game Overview
 
 Long ago, the world was protected by powerful Dungeon Masters who maintained the balance between humans, monsters, and magic.
@@ -597,22 +607,22 @@ The-Last-Dungeon-Master/
 
 ## Phase 1 — Prototype
 
-* [ ] Main menu
-* [ ] Player movement
-* [ ] Basic dungeon room
-* [ ] D20 dice system
-* [ ] Basic enemy
-* [ ] Basic combat
+* [x] Main menu
+* [x] Player movement
+* [x] Basic dungeon room
+* [x] D20 dice system
+* [x] Basic enemy
+* [x] Basic combat
 
 ## Phase 2 — Core Systems
 
-* [ ] Character classes
-* [ ] Character statistics
+* [x] Character classes
+* [x] Character statistics
 * [ ] Skills
 * [ ] Inventory
 * [ ] Equipment
-* [ ] Experience and leveling
-* [ ] Multiple enemies
+* [x] Experience and leveling
+* [x] Multiple enemies
 
 ## Phase 3 — Dungeon
 

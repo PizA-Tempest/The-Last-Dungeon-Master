@@ -1,0 +1,91 @@
+[gd_resource type="Theme" load_steps=8 format=3]
+
+[sub_resource type="SystemFont" id="Font"]
+font_names = PackedStringArray("Segoe UI", "Verdana", "DejaVu Sans", "sans-serif")
+
+[sub_resource type="StyleBoxFlat" id="BtnNormal"]
+content_margin_left = 16.0
+content_margin_right = 16.0
+bg_color = Color(0.2, 0.17, 0.24, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.75, 0.62, 0.3, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="BtnHover"]
+content_margin_left = 16.0
+content_margin_right = 16.0
+bg_color = Color(0.3, 0.26, 0.36, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 0.84, 0.35, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="BtnPressed"]
+content_margin_left = 16.0
+content_margin_right = 16.0
+bg_color = Color(0.12, 0.1, 0.15, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.75, 0.62, 0.3, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="BtnFocus"]
+content_margin_left = 16.0
+content_margin_right = 16.0
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 0.9, 0.5, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="Card"]
+content_margin_left = 40.0
+content_margin_top = 32.0
+content_margin_right = 40.0
+content_margin_bottom = 32.0
+bg_color = Color(0.09, 0.08, 0.12, 0.97)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.75, 0.62, 0.3, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+shadow_color = Color(0, 0, 0, 0.5)
+shadow_size = 12
+
+[resource]
+Button/colors/font_color = Color(0.92, 0.86, 0.7, 1)
+Button/colors/font_hover_color = Color(1, 0.95, 0.8, 1)
+Button/colors/font_pressed_color = Color(0.8, 0.72, 0.55, 1)
+Button/fonts/font = SubResource("Font")
+Button/styles/focus = SubResource("BtnFocus")
+Button/styles/hover = SubResource("BtnHover")
+Button/styles/normal = SubResource("BtnNormal")
+Button/styles/pressed = SubResource("BtnPressed")
+Label/colors/font_color = Color(0.92, 0.88, 0.75, 1)
+Label/fonts/font = SubResource("Font")
+PanelContainer/styles/panel = SubResource("Card")

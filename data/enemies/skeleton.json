@@ -1,0 +1,9 @@
+{
+  "id": "skeleton",
+  "name": "Skeleton",
+  "difficulty": "Easy",
+  "description": "Basic melee enemy.",
+  "hp": 40,
+  "attack": 6,
+  "defense": 1
+}

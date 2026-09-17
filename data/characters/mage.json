@@ -1,0 +1,7 @@
+{
+  "id": "mage",
+  "name": "Mage",
+  "description": "Powerful spellcaster capable of dealing elemental damage.",
+  "stats": { "strength": 1, "dexterity": 2, "intelligence": 5, "constitution": 2, "charisma": 3 },
+  "hp": 70
+}

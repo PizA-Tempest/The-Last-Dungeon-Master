@@ -1,0 +1,7 @@
+{
+  "id": "rogue",
+  "name": "Rogue",
+  "description": "Fast and agile fighter specializing in critical attacks and evasion.",
+  "stats": { "strength": 2, "dexterity": 5, "intelligence": 2, "constitution": 2, "charisma": 4 },
+  "hp": 80
+}
